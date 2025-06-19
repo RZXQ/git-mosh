@@ -1,0 +1,9 @@
+# Set your global Git username (appears in commit history)
+git config --global user.name "Reacher"
+
+# Set your global Git email address (appears in commit history and must match GitHub email)
+git config --global user.email "macryze@icloud.com"
+
+# Configure line ending handling for cross-platform compatibility
+# 'input' = convert CRLF to LF on commit, but don't convert on checkout (recommended for Mac/Linux)
+git config --global core.autocrlf input
