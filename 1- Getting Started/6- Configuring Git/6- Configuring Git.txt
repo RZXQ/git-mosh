@@ -1,9 +1,13 @@
-# Set your global Git username (appears in commit history)
+# Configure global Git username (displayed in commit history and repository logs)
 git config --global user.name "Reacher"
 
-# Set your global Git email address (appears in commit history and must match GitHub email)
+# Configure global Git email address (must match your GitHub/GitLab account email for proper attribution)
 git config --global user.email "macryze@icloud.com"
 
-# Configure line ending handling for cross-platform compatibility
-# 'input' = convert CRLF to LF on commit, but don't convert on checkout (recommended for Mac/Linux)
+# Configure line ending normalization for cross-platform development
+# 'input' converts Windows CRLF to Unix LF on commit, preserves LF on checkout
+# This prevents line ending conflicts when collaborating across different operating systems
 git config --global core.autocrlf input
+
+# Open global Git configuration file in default editor for additional customization
+git config --global -e
