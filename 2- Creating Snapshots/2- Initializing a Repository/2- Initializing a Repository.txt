@@ -1,0 +1,7 @@
+# Initialize a new Git repository in the current directory
+# This creates a hidden .git folder to track version control
+git init
+
+# List all files and directories (including hidden ones)
+# The -a flag shows hidden files like .git that start with a dot
+ls -a
