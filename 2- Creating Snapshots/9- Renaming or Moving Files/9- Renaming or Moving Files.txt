@@ -1,0 +1,16 @@
+# Rename file1.txt to main.js using system command
+# Git sees this as: deletion of file1.txt + creation of untracked main.js
+mv file1.txt main.js
+
+# Stage the deletion of file1.txt (tells Git the original file is gone)
+git add file1.txt
+# Stage the new main.js file (tells Git to start tracking it)
+git add main.js
+# Result: Git recognizes this as a rename operation: "renamed: file1.txt -> main.js"
+
+# Git's built-in rename command - handles both filesystem AND Git operations
+# Renames main.js to file1.js in working directory and stages the change automatically
+git mv main.js file1.js
+
+# Commit all the rename operations
+git commit -m "Refactor code."
