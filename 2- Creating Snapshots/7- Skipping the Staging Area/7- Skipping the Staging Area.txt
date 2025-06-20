@@ -1,0 +1,5 @@
+echo test >> fil1.txt
+
+git commit -a -m "message"
+or
+git commit -am "message"
