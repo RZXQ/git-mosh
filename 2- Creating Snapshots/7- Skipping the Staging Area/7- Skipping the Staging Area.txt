@@ -1,5 +1,7 @@
+# Append "test" to fil1.txt (creates file if it doesn't exist)
 echo test >> fil1.txt
 
+# Stage all modified files and commit with message
 git commit -a -m "message"
-or
+# or (shorthand version)
 git commit -am "message"
