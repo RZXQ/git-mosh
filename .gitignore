@@ -20,6 +20,7 @@
 cmake-build-*/
 .idea/**/mongoSettings.xml
 *.iws
+2- Creating Snapshots/10- Ignoring Files/bin/
 out/
 .idea_modules/
 atlassian-ide-plugin.xml
