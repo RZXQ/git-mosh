@@ -1,0 +1,15 @@
+# Remove file2.txt from working directory only (not from Git's staging area)
+rm file2.txt
+
+# List all files currently tracked by Git (file2.txt still appears here)
+git ls-files
+
+# Stage the deletion of file2.txt (tells Git to remove it from the repository)
+git add file2.txt
+
+# Commit the deletion with a message
+git commit -m "remove unused code"
+
+# Alternative shorthand approach:
+# Remove files from both working directory AND staging area in one command
+git rm file2.txt file1.txt 
