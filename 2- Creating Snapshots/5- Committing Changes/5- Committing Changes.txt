@@ -1,8 +1,0 @@
-# Initial commit - setting up the project foundation
-git commit -m "initial commit"
-
-# Long description
-# This commit establishes the basic project structure and initial files
-# - Added core project files
-# - Set up initial configuration
-# - Created basic directory structure
