@@ -1,0 +1,3 @@
+```Bash
+git merge --abort
+```
