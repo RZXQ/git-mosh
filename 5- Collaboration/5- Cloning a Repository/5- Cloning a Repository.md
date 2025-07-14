@@ -1,27 +1,30 @@
-# Checking Remote Repositories in Git
+# Cloning a Repository and Viewing Remotes
 
-When you clone a repository, you can check which remote repositories are connected using:
+To clone a repository:
 
-```
-bash git remote
+``` bash
+git clone [https://github.com/codewithmosh/Mars.git](https://github.com/codewithmosh/Mars.git)
 ``` 
 
-or for detailed URLs:
+After cloning, you can list the existing remotes:
 
-```
-bash git remote -v
+```bash
+git remote
 ``` 
 
-This displays the remote name (typically `origin`) and its fetch/push URLs.
+To view detailed remote URLs:
 
-**Example Output:**
+```bash
+git remote -v
+``` 
+
+Expected output might look like:
 
 ```
 origin [https://github.com/codewithmosh/Mars.git](https://github.com/codewithmosh/Mars.git) (fetch) origin [https://github.com/codewithmosh/Mars.git](https://github.com/codewithmosh/Mars.git) (push)
 ``` 
 
-**Tip:**
+> **Note:**  
+> Only refer to code from attachments if it is specifically needed for your workflow or explanation.
 
-- `origin` is just a local alias for the actual repository URL.
-- You can add, rename, or remove remotes as needed for collaboration or deployment.
 ```
