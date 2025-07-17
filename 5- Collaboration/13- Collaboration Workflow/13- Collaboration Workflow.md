@@ -70,7 +70,7 @@ git push
 ## 7. Delete the Feature Branch (Both Remote and Local)
 
 ```bash
-bash git push -d origin feature/change-password 
+git push -d origin feature/change-password 
 
 git branch -d feature/change-password
 ``` 
